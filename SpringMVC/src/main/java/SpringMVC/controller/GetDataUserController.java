@@ -1,8 +1,8 @@
-package SpringMVC.Controller;
+package SpringMVC.controller;
 
-import SpringMVC.Dto.UserDTO;
-import SpringMVC.Entity.User;
-import SpringMVC.Service.GetDataUserService;
+import SpringMVC.dto.UserDTO;
+import SpringMVC.entity.User;
+import SpringMVC.service.GetDataUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

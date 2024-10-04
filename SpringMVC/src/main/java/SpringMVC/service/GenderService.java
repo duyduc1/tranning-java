@@ -1,7 +1,7 @@
-package SpringMVC.Service;
+package SpringMVC.service;
 
-import SpringMVC.Entity.Gender;
-import SpringMVC.Repository.GenderReposirtory;
+import SpringMVC.entity.Gender;
+import SpringMVC.repository.GenderReposirtory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

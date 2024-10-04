@@ -1,4 +1,4 @@
-package SpringMVC.Dto;
+package SpringMVC.dto;
 
 public class UserDTO {
     private Long id;

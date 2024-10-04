@@ -1,9 +1,9 @@
-package SpringMVC.Service;
+package SpringMVC.service;
 
-import SpringMVC.Dto.UserDTO;
-import SpringMVC.Entity.User;
-import SpringMVC.Mapper.UserMapper;
-import SpringMVC.Repository.UserRepository;
+import SpringMVC.dto.UserDTO;
+import SpringMVC.entity.User;
+import SpringMVC.mapper.UserMapper;
+import SpringMVC.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

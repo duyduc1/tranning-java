@@ -1,6 +1,6 @@
-package SpringMVC.Repository;
+package SpringMVC.repository;
 
-import SpringMVC.Entity.User;
+import SpringMVC.entity.User;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

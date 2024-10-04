@@ -1,14 +1,10 @@
-package SpringMVC.Controller;
+package SpringMVC.controller;
 
-import SpringMVC.Entity.Companies;
-import SpringMVC.Entity.Gender;
-import SpringMVC.Entity.User;
-import SpringMVC.Service.CompanyService;
-import SpringMVC.Service.GenderService;
-import SpringMVC.Service.UserService;
+import SpringMVC.entity.User;
+import SpringMVC.service.CompanyService;
+import SpringMVC.service.GenderService;
+import SpringMVC.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
