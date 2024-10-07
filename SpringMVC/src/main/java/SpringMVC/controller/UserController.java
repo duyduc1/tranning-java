@@ -19,7 +19,7 @@ public class UserController {
 
     @Autowired
     private GenderService genderService;
-
+    
     @GetMapping("/register")
     public String showRegisterForm(Model model) {
         model.addAttribute("genders", genderService.getAllGenders());
@@ -42,7 +42,7 @@ public class UserController {
     @PostMapping("/login")
     public String login(@RequestParam String email , @RequestParam String password, Model model) {
         if (userService.login(email, password)) {
-            return "redirect:/home";
+            return "redirect:/users";
         }
         return "redirect:/login";
     }
