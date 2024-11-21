@@ -1,8 +1,7 @@
-package SpringMVC.Controller;
+package SpringMVC.controller;
 
-import SpringMVC.Entity.Companies;
-import SpringMVC.Service.CompanyService;
-import SpringMVC.Service.GetDataUserService;
+import SpringMVC.entity.Companies;
+import SpringMVC.service.CompanyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

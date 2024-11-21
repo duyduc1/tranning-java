@@ -1,7 +1,7 @@
-package SpringMVC.Service;
+package SpringMVC.service;
 
-import SpringMVC.Entity.Companies;
-import SpringMVC.Repository.CompanyRepository;
+import SpringMVC.entity.Companies;
+import SpringMVC.repository.CompanyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

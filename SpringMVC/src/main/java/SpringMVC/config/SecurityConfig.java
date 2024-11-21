@@ -1,4 +1,4 @@
-package SpringMVC.Config;
+package SpringMVC.config;
 
 
 import org.springframework.context.annotation.Bean;

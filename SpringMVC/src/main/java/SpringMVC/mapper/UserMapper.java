@@ -1,7 +1,7 @@
-package SpringMVC.Mapper;
+package SpringMVC.mapper;
 
-import SpringMVC.Dto.UserDTO;
-import SpringMVC.Entity.User;
+import SpringMVC.dto.UserDTO;
+import SpringMVC.entity.User;
 import org.springframework.stereotype.Component;
 
 @Component

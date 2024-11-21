@@ -1,4 +1,4 @@
-package SpringMVC.Entity;
+package SpringMVC.entity;
 
 import jakarta.persistence.*;
 

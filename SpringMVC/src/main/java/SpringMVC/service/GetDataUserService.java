@@ -1,10 +1,13 @@
-package SpringMVC.Service;
+package SpringMVC.service;
 
-import SpringMVC.Dto.UserDTO;
-import SpringMVC.Entity.User;
-import SpringMVC.Mapper.UserMapper;
-import SpringMVC.Repository.UserRepository;
+import SpringMVC.dto.UserDTO;
+import SpringMVC.entity.User;
+import SpringMVC.mapper.UserMapper;
+import SpringMVC.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,12 +16,17 @@ import java.util.stream.Collectors;
 @Service
 public class GetDataUserService {
 
-
     @Autowired
     private UserRepository userRepository;
 
     @Autowired
     private UserMapper  userMapper;
+
+    public Page<User> getUserWithPaginate(int pageNumber , int pageSize){
+        Pageable pageable = PageRequest.of(pageNumber - 1 , pageSize);
+        return userRepository.findAll(pageable);
+    }
+
     public List<UserDTO> getAllUsers() {
         List<User> users = userRepository.findAll();
         return users.stream()

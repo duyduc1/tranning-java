@@ -1,9 +1,9 @@
-package SpringMVC.Service;
+package SpringMVC.service;
 
-import SpringMVC.Entity.Companies;
-import SpringMVC.Entity.Gender;
-import SpringMVC.Entity.User;
-import SpringMVC.Repository.UserRepository;
+import SpringMVC.entity.Companies;
+import SpringMVC.entity.Gender;
+import SpringMVC.entity.User;
+import SpringMVC.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

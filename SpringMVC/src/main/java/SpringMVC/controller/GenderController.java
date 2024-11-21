@@ -1,7 +1,7 @@
-package SpringMVC.Controller;
+package SpringMVC.controller;
 
-import SpringMVC.Entity.Gender;
-import SpringMVC.Service.GenderService;
+import SpringMVC.entity.Gender;
+import SpringMVC.service.GenderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

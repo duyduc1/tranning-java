@@ -1,12 +1,12 @@
-package SpringMVC.Repository;
+package SpringMVC.repository;
 
-import SpringMVC.Entity.Gender;
+import SpringMVC.entity.Companies;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
 @Transactional
-public interface GenderReposirtory extends JpaRepository<Gender, Long> {
-
+public interface CompanyRepository extends JpaRepository<Companies, Long> {
 }
+
